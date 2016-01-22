@@ -1,0 +1,1 @@
+define(["./core"],function(e){e.fn.extend({bind:function(e,t,n){return this.on(e,null,t,n)},unbind:function(e,t){return this.off(e,null,t)},delegate:function(e,t,n,r){return this.on(t,e,n,r)},undelegate:function(e,t,n){return arguments.length===1?this.off(e,"**"):this.off(t,e||"**",n)},size:function(){return this.length}}),e.fn.andSelf=e.fn.addBack});

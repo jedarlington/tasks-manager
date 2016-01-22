@@ -1,0 +1,24 @@
+{
+  "name": "tasks-manager",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "connect": "2.7.0",
+    "grunt": "^0.4.5",
+    "requirejs": "latest"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "chai": "latest",
+    "grunt": "latest",
+    "grunt-exec": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "grunt": "grunt"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,1 @@
+define(["../data/var/dataPriv"],function(e){function t(t,n){var r,i,s=[],o=0,u=t.length;for(;o<u;o++){i=t[o];if(!i.style)continue;r=i.style.display,n?r==="none"&&(s[o]=e.get(i,"display")||""):r!=="none"&&(s[o]="none",e.set(i,"display",r))}for(o=0;o<u;o++)s[o]!=null&&(t[o].style.display=s[o]);return t}return t});

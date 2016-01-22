@@ -1,0 +1,21 @@
+{
+  "name": "tasks-manager",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Jim Darlington <jedarlington@me.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0"
+  }
+}
